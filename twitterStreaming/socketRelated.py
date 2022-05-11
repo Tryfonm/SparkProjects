@@ -4,7 +4,7 @@ import socket
 IP = ...
 PORT = ...
 
-# sudo nc 172.31.63.184 9991
+# sudo nc <IP> <PORT>
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
